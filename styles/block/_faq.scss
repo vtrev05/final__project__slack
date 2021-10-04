@@ -1,0 +1,33 @@
+.faq {
+    padding: 10px;
+  }
+
+.faq__list__item {
+  display: none;
+}
+
+.faq__list {
+  text-transform: uppercase;
+  color: $black-primary-color;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: .875rem;
+}
+
+.faq__list span {
+  float: right;
+}
+
+.faq__list span img {
+  width: 15px;
+}
+
+
+.faq__image {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+hr {
+  width: 95%;
+}

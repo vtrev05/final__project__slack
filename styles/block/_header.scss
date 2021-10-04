@@ -1,0 +1,28 @@
+.header{
+    background-color: $beige-primary-color;
+    width: 100%;
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    
+        img {
+            display: inline-block;
+            width: 35%;
+            height: auto;
+            margin-left: 10px;
+        }
+        svg {
+            display: inline-block;
+            width: 6%;
+            height: auto;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}

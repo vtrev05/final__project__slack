@@ -1,0 +1,53 @@
+.trial {
+    padding-top: 45px;
+    background-color: $violet-primary-color;
+    border: none;
+    clip-path: ellipse(95% 100% at center top);
+    height: auto;
+    text-align: center;
+    min-height: 500px;
+  
+    h1 {
+      color: $white-primary-color;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 2.05rem;
+    }
+            a {
+            display: block;
+            width: 100%;
+            background-color: $violet-primary-color;
+            text-decoration: none;
+            color: $white-primary-color;
+            line-height: 1.25rem;
+            font-size: 1rem;
+            
+            
+        }.first{
+            width: 90%;
+            background-color: $white-primary-color;
+            text-decoration: none;
+            color: $violet-primary-color;
+            line-height: 1.25rem;
+            font-size: .95rem;
+            padding: 30px;
+            margin: 0 auto;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            font-weight: bold;
+            }
+         .second{
+            width: 90%;
+            background-color: $violet-primary-color;
+            text-decoration: none;
+            color: $white-primary-color;
+            line-height: 1.25rem;
+            font-size: .95rem;
+            font-weight: bold;
+            padding: 25px;
+            margin: 0 auto;
+            border-radius: 8px;
+            border: 1px solid $white-primary-color;
+         }
+}
